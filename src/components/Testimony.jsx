@@ -23,7 +23,7 @@ function Testimony(props) {
                 src={images[props.image]}
                 alt="image-emma" />
             <div className="container-text-testimony">
-                <p className="name-testimony">{props.name} En {props.country}</p>
+                <p className="name-testimony"><strong>{props.name}</strong> En {props.country}</p>
                 <p className="charge-testimony">{props.charge} En {props.company}</p>
                 <p className="text-testimony">"{props.testimony}"</p>
 
