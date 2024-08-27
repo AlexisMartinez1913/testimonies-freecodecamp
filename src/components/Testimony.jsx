@@ -1,4 +1,4 @@
-import React from "react";
+
 import '../style-sheets/Testimony.css';
 import emma from '../images/testimonio-emma.png';
 import sarah from '../images/testimonio-sarah.png';
@@ -21,7 +21,7 @@ function Testimony(props) {
             <img
                 className="img-testimony"
                 src={images[props.image]}
-                alt="image-emma" />
+                alt={`image-${props.image}`}  />
             <div className="container-text-testimony">
                 <p className="name-testimony"> <strong>{props.name}</strong> En {props.country}</p>
                 <p className="charge-testimony"> <strong>{props.charge}</strong> En {props.company}</p>
